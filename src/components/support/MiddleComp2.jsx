@@ -1,6 +1,7 @@
 import { Text, Box, Flex, Image } from '@chakra-ui/react'
 import Texticon from '../../assets/images/texticon.svg'
 import Star from '../../assets/images/star.svg'
+import Contactimg from '../../assets/images/contact.svg'
 import React from 'react'
 
 const MiddleComp2 = () => {
@@ -326,6 +327,126 @@ const MiddleComp2 = () => {
                         }}
                     >
                         Most popular
+                    </Text>
+                </Box>
+
+            </Box>
+            <Box
+                position={'absolute'}
+                background={'#FEFEFE'}
+                height={{
+                    base: '812px',
+                    sm: '370px'
+                }}
+                width={{
+                    base: '375px',
+                    sm: '308px'
+                }}
+                left={{
+                    base: '7573',
+                    sm: '673px'
+                }}
+                top={'175px'}
+            >
+                {/*  image */}
+                <Image src={Contactimg} alt='logo'
+                    position={'absolute'}
+                    width={{
+                        base: '39px',
+                        sm: '41.4px'
+                    }}
+                    height={{
+                        base: '57.47px',
+                        sm: '50px'
+                    }}
+                    left={{
+                        base: '116px',
+                        sm: '102px'
+                    }}
+                    top={{
+                        base: '74px',
+                        sm: '-3px'
+                    }}
+                />
+                <Text
+                    position={'absolute'}
+                    width={{
+                        base: '216px',
+                        sm: '216px'
+                    }}
+                    top={{
+                        base: '0',
+                        sm: '67px'
+                    }}
+                    height={{
+                        base: '20px',
+                        sm: '30px'
+                    }}
+                    left={'0px'}
+                    fontFamily={'poppins'}
+                    fontWeight={'600'}
+                    color={'#000000'}
+                    fontSize={{
+                        base: '13px',
+                        sm: '20px'
+                    }}
+                    fontStyle={'normal'}
+                    lineHeight={{
+                        base: '19.5px',
+                        sm: '30px'
+                    }}
+                >Personalized Support
+                </Text>
+
+                {/* Star images */}
+                <Image src={Star} alt='logo'
+                    position={'absolute'}
+                    width={{
+                        base: '39px',
+                        sm: '24px'
+                    }}
+                    height={{
+                        base: '57.47px',
+                        sm: '24px'
+                    }}
+                    left={{
+                        base: '0px',
+                        sm: '1.25px'
+                    }}
+                    top={{
+                        base: '74px',
+                        sm: '125.25px'
+                    }}
+                />
+                <Box>
+                    <Text
+                        position={'absolute'}
+                        width={{
+                            base: '296px',
+                            sm: '216px'
+                        }}
+                        top={{
+                            base: '0',
+                            sm: '121px'
+                        }}
+                        height={{
+                            base: '20px',
+                            sm: '56px'
+                        }}
+                        left={'30px'}
+                        fontFamily={'poppins'}
+                        fontWeight={'400'}
+                        color={'#2C2B2B'}
+                        fontSize={{
+                            base: '13px',
+                            sm: '16px'
+                        }}
+                        fontStyle={'normal'}
+                        lineHeight={{
+                            base: '19.5px',
+                            sm: '24px'
+                        }}
+                    >Find your profile to get into your Teetree account
                     </Text>
                 </Box>
 

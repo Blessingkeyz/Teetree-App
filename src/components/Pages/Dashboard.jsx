@@ -1,14 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import Support from "./Support";
-import Upgrade from "./Upgrade";
-import HelpAndGetStarted from "./HelpAndGetStarted";
-import Onbording2Dashbord from "./Onbording2Dashbord";
 import logo from "../Assets/logo1.png";
 import ellipse from "../Assets/ellipse.svg";
 import { HiMenuAlt1 } from "react-icons/hi";
-import OverView from "./OverView";
-import MyAccount from "./MyAccount";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {
@@ -20,10 +14,10 @@ const Dashboard = () => {
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
-        <div class="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
+        <div className="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
           <div className="w-[25%]">
             {/* Desktop side bar */}
-            <div class=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
+            <div className=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
               <img
                 src={logo}
                 alt="logo"
@@ -71,7 +65,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div class="w-full flex flex-col font-pop  ">
+          <div className="w-full flex flex-col font-pop  ">
             <div className="flex xs:justify-center xs:items-center xs:text-center mx-5 mt-5 xs:mt-[2rem]   xs:pr-0 xs:mx-0 ">
               <div>
                 <p className="text-[24px] xs:text-[20px]  font-medium text-tee-400 xs:font-bold xs:hidden">

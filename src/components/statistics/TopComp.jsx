@@ -183,7 +183,7 @@ const TopComp = () => {
                     sm: '208px'
                 }}
                 lineHeight={'19.71px'}
-                onSelect={{ bgColor: 'pink' }}
+            // onSelect={{ bgColor: 'pink' }}
             // type={'submit'} 
             >
                 Month

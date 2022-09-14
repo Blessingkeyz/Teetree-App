@@ -8,7 +8,7 @@ import SharedLayout from './components/SharedLayout'
 import ProtectedRoutes from './components/ProtectedRoutes'
 import Signup from './components/Signup'
 
-function App() {
+function Ap() {
   return (
     <>
       <Routes>
@@ -26,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default Ap

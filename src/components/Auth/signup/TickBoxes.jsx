@@ -2,7 +2,7 @@ import React from 'react'
 import { Checkbox, HStack, Text } from '@chakra-ui/react'
 import { memo } from 'react'
 
-const TickBoxes = memo(({ userData, handleChange, inputRef }) => {
+const TickBoxes = memo(({ handleChange, inputRef }) => {
     console.log("render : TickBoxes");
     return (
         <>

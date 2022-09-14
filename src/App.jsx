@@ -8,7 +8,6 @@ import Settings from './components/settings/Settings'
 import Statistics from './components/statistics/Statistics'
 import Support from './components/support/Support'
 // import Form from "./Components/Form/Form";
-import Dashboard from "./Components/Pages/Dashboard";
 import OverView from "./Components/Pages/OverView";
 import MyAccount from "./Components/Pages/MyAccount";
 const App = () => {
@@ -21,9 +20,8 @@ const App = () => {
       <Route path="/settings" element={<Settings />} />
       <Route path="/support" element={<Support />} />
       <Route path="/*" element={<Errorpage2 />} />
-      <Route path="/overview" element={<OverView />} />
+      <Route path="/dashboard" element={<OverView />} />
       <Route path="/myaccount" element={<MyAccount />} />
-      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
 
   )

@@ -25,7 +25,7 @@ const Sidebar = () => {
               />
               <div>
                 <ul>
-                  <Link to={"/"}>Over View</Link> <br />
+                  <Link to={"/dashboard"}>Over View</Link> <br />
                   <Link to={"/MyAccount"}>MyAccount</Link> <br />
                   <li> My design</li>
                   <Link to={"/settings"}>Settings</Link> <br />
@@ -56,10 +56,13 @@ const Sidebar = () => {
                 }
               >
                 <ul>
-                  <li>what </li>
-                  <li>what </li>
-                  <li>what </li>
-                  <li>what </li>
+                  <Link to={"/dashboard"}>Over View</Link> <br />
+                  <Link to={"/MyAccount"}>MyAccount</Link> <br />
+                  <li> My design</li>
+                  <Link to={"/settings"}>Settings</Link> <br />
+                  <Link to={"/stats"}>Statistics</Link> <br />
+                  <Link to={"/support"}>Support</Link> <br />
+                  <Link to={"/upgrade"}>Upgrade</Link>
                 </ul>
               </div>
             </div>

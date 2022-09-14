@@ -23,10 +23,10 @@ const Support = () => {
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
-        <div class="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
+        <div className="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
           <div className="w-[25%]">
             {/* Desktop side bar */}
-            <div class=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
+            <div className=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
               <img
                 src={logo}
                 alt="logo"
@@ -70,12 +70,12 @@ const Support = () => {
             </div>
           </div>
 
-          <div class="w-full flex flex-col font-pop  ">
+          <div className="w-full flex flex-col font-pop  ">
             <div className="flex xs:justify-center xs:items-center xs:text-center mx-5 mt-5 xs:mt-[2rem]   xs:pr-0 xs:mx-0 ">
               <div>
                 <p className="text-[24px] xs:text-[20px]  font-medium text-tee-400 xs:font-bold xs:hidden">
                   Welcome! Blessing Asukwo
-                </p> 
+                </p>
                 <p className="text-[16px] xs:text-[20px] pr-[2rem] font-semi text-tee-400  hidden xs:flex -mt-[4rem]">
                   Support
                 </p>
@@ -89,25 +89,25 @@ const Support = () => {
               <div className="flex flex-col mt-8 xs:mt-0 mb-2 w-[300px] md:w-[280px] h-[460px]  space-y-5 ">
                 <MdContactSupport className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center" />
                 <div>
-                <p className="pl-8 pb-7 font-bold text-[20px] ">Teetree Discussions</p>
-                <p className="pl-8 text-[16px]">Most popular</p>
+                  <p className="pl-8 pb-7 font-bold text-[20px] ">Teetree Discussions</p>
+                  <p className="pl-8 text-[16px]">Most popular</p>
                 </div>
 
                 <div className="flex ">
-                <MdStarHalf className="text-[30px]"/>
+                  <MdStarHalf className="text-[30px]" />
                   <span className="pl-2 text-[16px] w-[250px] ">Changing my profile picture on Teetree</span>
                 </div>
 
                 <div className=" flex ">
-                <MdStarHalf className="text-[30px]"/>
+                  <MdStarHalf className="text-[30px]" />
                   <span className="pl-2 text-[16px] w-[250px]">Adding a bio description to your Teetree account</span>
                 </div>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Becoming a community advocate on Teetree</span>
                 </div>
                 <div className="  flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Adding a new theme to my Teetree background</span>
                 </div>
               </div>
@@ -116,23 +116,23 @@ const Support = () => {
               <div className="flex flex-col mt-8 mb-2 w-[300px] md:w-[280px] h-[460px] space-y-5">
                 <MdOutlineTextSnippet className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center" />
                 <div>
-                <p className="pl-8 pb-7 font-bold  text-[20px]">Teetree User Guide</p>
-                <p className="pl-8 text-[16px]">Most popular</p>
+                  <p className="pl-8 pb-7 font-bold  text-[20px]">Teetree User Guide</p>
+                  <p className="pl-8 text-[16px]">Most popular</p>
                 </div>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">How to get started on Teetree</span>
                 </div>
                 <div className="flex ">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Sharing your Teetree link</span>
                 </div>
                 <div className="flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Changing your Teetree email address</span>
                 </div>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px]"/>
+                  <MdStarHalf className="text-[34px]" />
                   <span className="pl-2 text-[16px] w-[250px]">Be part of Teetree community</span>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Support = () => {
                 <FaUserCircle className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center" />
                 <p className="pl-8 pb-7 font-bold text-[20px] ">Personalized Support</p>
                 <div className="flex ">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">
                     Find your profile to get into your Teetree account{" "}
                   </span>
@@ -156,17 +156,17 @@ const Support = () => {
                 <MdOutlineCampaign className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center" />
                 <p className="pl-8 pb-7 font-bold  text-[20px] xs:pr-[3rem] xs:text-center">Announcements</p>
                 <div className=" flex ">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">New landing page!</span>
                 </div>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">
                     You can now add more than one email address to your Teetree
                   </span>
                 </div>
                 <div className="flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">
                     Get a referal link to invite your friends to Teetree
                   </span>
@@ -176,22 +176,22 @@ const Support = () => {
 
 
               <div className="flex flex-col my-2 w-[300px] xs:-mt-[6rem] md:w-[280px] h-[460px] space-y-5 ">
-                <MdLink className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center"  />
+                <MdLink className="text-[560px] w-[17rem] h-10 mt-7 text-tee-200 flex items-center" />
                 <p className="pl-8 pb-7 font-bold  text-[20px] xs:pr-[3.4rem] xs:text-center">Resources</p>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Report a link error </span>
                 </div>
                 <div className="flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Glossary</span>
                 </div>
                 <div className="flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Download the Teetree app</span>
                 </div>
                 <div className=" flex">
-                <MdStarHalf className="text-[34px] "  />
+                  <MdStarHalf className="text-[34px] " />
                   <span className="pl-2 text-[16px] w-[250px]">Contact us</span>
                 </div>
               </div>

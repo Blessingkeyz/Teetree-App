@@ -25,10 +25,10 @@ const MyAccount = () => {
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
-        <div class="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
+        <div className="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
           <div className="w-[25%]">
             {/* Desktop side bar */}
-            <div class=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
+            <div className=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
               <img
                 src={logo}
                 alt="logo"
@@ -75,7 +75,7 @@ const MyAccount = () => {
             </div>
           </div>
 
-          <div class="w-full flex flex-col font-pop capitalize">
+          <div className="w-full flex flex-col font-pop capitalize">
             <div className="flex xs:justify-center xs:items-center xs:text-center mx-5 mt-5 xs:mt-[2rem]   xs:pr-0 xs:mx-0 ">
               <div>
                 <p className="text-[24px] xs:text-[20px]  font-medium text-tee-400 xs:font-bold xs:hidden">
@@ -98,42 +98,42 @@ const MyAccount = () => {
                   <div className="flex ">
                     <img src={ellipse} alt="" className="w-[135px]" />
                     <div className="flex flex-col items-end justify-center">
-                    <p>Blessing Asukwo</p> 
-                    <p>UI/UX Designer</p>
+                      <p>Blessing Asukwo</p>
+                      <p>UI/UX Designer</p>
                     </div>
                   </div>
                   <img src={pen} alt="" className="w-4 h-5" />
-                  
+
                 </div>
                 <hr />
                 <div className="flex justify-between">
-                    <div>
-                        <p>Phone number</p>
-                        <p>Location</p>
-                        <p>Niche</p>
-                        <p>Password</p>
-                    </div>
-                    <div>
-                        <p>+234800000000</p>
-                        <p>Calabar, Cross Rivers State</p>
-                        <p>Tech</p>
-                        <p>**********</p>
-                    </div>
+                  <div>
+                    <p>Phone number</p>
+                    <p>Location</p>
+                    <p>Niche</p>
+                    <p>Password</p>
+                  </div>
+                  <div>
+                    <p>+234800000000</p>
+                    <p>Calabar, Cross Rivers State</p>
+                    <p>Tech</p>
+                    <p>**********</p>
+                  </div>
                 </div>
               </div>
               <div className="w-[260px] bg-tee-800">
                 <div>
-                    <p>Current plan</p>
-                    <p>Free</p>
-                    <button>Upgrade</button>
+                  <p>Current plan</p>
+                  <p>Free</p>
+                  <button>Upgrade</button>
                 </div>
                 <div>
-                    <p>Delete account</p>
-                    <p>If you delete your 
-                       account your data
-                        will be lost
-                        </p>
-                        <button>Upgrade</button>
+                  <p>Delete account</p>
+                  <p>If you delete your
+                    account your data
+                    will be lost
+                  </p>
+                  <button>Upgrade</button>
                 </div>
               </div>
             </div>

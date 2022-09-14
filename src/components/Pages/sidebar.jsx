@@ -14,10 +14,10 @@ const Sidebar = () => {
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
-        <div class="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
+        <div className="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
           <div className="w-[25%]">
             {/* Desktop side bar */}
-            <div class=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
+            <div className=" h-[1300px] md:h-[2000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
               <img
                 src={logo}
                 alt="logo"

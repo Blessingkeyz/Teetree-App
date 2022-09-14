@@ -13,10 +13,10 @@ const Upgrade = () => {
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
-        <div class="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
+        <div className="flex w-full justify-between mx-auto xs:flex-col xs:h-screen ">
           <div className="w-[25%]">
             {/* Desktop side bar */}
-            <div class=" h-[1000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
+            <div className=" h-[1000px] flex flex-col text-white items-center bg-tee-200 xs:hidden md:flex p-4">
               <img
                 src={logo}
                 alt="logo"
@@ -60,7 +60,7 @@ const Upgrade = () => {
             </div>
           </div>
 
-          <div class="w-full flex flex-col  ">
+          <div className="w-full flex flex-col  ">
             <div className="flex xs:justify-center xs:items-center xs:text-center mx-5 mt-5 xs:mt-[2rem]   xs:pr-0 xs:mx-0 ">
               <div>
                 <p className="text-[40px] xs:text-[20px] font-medium text-tee-400 xs:font-bold">

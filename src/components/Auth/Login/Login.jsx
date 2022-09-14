@@ -54,7 +54,7 @@ const Login = () => {
         //validating for userDetails in session storage
         userInfo?.email === userData.email &&
             userInfo?.password === userData.password
-            ? [sessionStorage.setItem(userInfo.fullname, userData.email), alert('SUCCESS!    REDIRECTING TO YOUR DASHBOARD'), navigate('/')]
+            ? [sessionStorage.setItem(userInfo.fullname, userData.email), alert('SUCCESS!    REDIRECTING TO YOUR DASHBOARD'), navigate('/dashboard')]
             : alert('INCORRECT DETAILS,  PLEASE CHECK AND TRY AGAIN');
     };
     // useEffect

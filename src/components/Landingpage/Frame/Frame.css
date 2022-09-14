@@ -1,0 +1,227 @@
+.peosay-1 {
+    position: absolute;
+width: 1046.88px;
+height: 171.98px;
+left: 218.99px;
+top: 127.07px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 79.2136px;
+line-height: 119px;
+letter-spacing: -0.035em;
+
+color: #131212;
+}
+.peosay-2{
+    position: absolute;
+width: 1022.31px;
+height: 59.41px;
+left: 120.51px;
+top: 2577.36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 25.0148px;
+line-height: 153%;
+/* or 38px */
+text-align: center;
+
+color: #464646
+}
+.frame-1 {
+    position: absolute;
+width: 360.77px;
+height: 350.61px;
+left: 53px;
+top: 2776px;
+background: #FFFFFF;
+border-radius: 40.8632px;
+}
+.frame-2 {
+    position: absolute;
+width: 360.77px;
+height: 350.61px;
+left: 500.35px;
+top: 2776.44px;
+background: #FFFFFF;
+border-radius: 40.8632px;
+}
+.frame-3 {
+    position: absolute;
+width: 360.77px;
+height: 350.61px;
+left: 933.69px;
+top: 2776.44px;
+
+background: #FFFFFF;
+border-radius: 40.8632px;
+}
+.oslo-adiana-1 {
+    font-size: 25px;
+    line-height: 29px;
+    color: #3f3f3f;
+    font-weight: 700; position: absolute;
+    width: 147.03px;
+    height: 15.15px;
+    left: 102.01px;
+    top: 2810.77px;
+    font-family: 'Effra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.0148px;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+    
+    
+  }
+.Jaiye-Tella-1 {
+    position: absolute;
+width: 147.03px;
+height: 15.15px;
+left: 558.25px;
+top: 2810.2px;
+
+font-family: 'Effra';
+font-style: normal;
+font-weight: 700;
+font-size: 25.0148px;
+line-height: 30px;
+letter-spacing: -0.035em;
+color: #3F3F3F;
+} 
+.Adriane-Mane-1 {
+    position: absolute;
+width: 147.03px;
+height: 15.15px;
+left: 1000.47px;
+top: 2810.2px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 700;
+font-size: 25.0148px;
+line-height: 30px;
+letter-spacing: -0.035em;
+color: #3F3F3F;
+}
+.oslo-tl-1{
+    position: absolute;
+width: 50.21px;
+height: 17.09px;
+left: 102.01px;
+top: 2838.17px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 400;
+font-size: 13.9109px;
+line-height: 17px;
+letter-spacing: -0.035em;
+color: #464646;
+}
+.jella-tl-1 {
+    position: absolute;
+width: 35.25px;
+height: 17.09px;
+left: 558.25px;
+top: 2838.61px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 400;
+font-size: 13.9109px;
+line-height: 17px;
+letter-spacing: -0.035em;
+color: #464646;
+}
+.manadn-1 {
+    position: absolute;
+width: 64.09px;
+height: 17.09px;
+left: 1000.47px;
+top: 2838.61px;
+font-family: 'Effra';
+font-style: normal;
+font-weight: 400;
+font-size: 13.9109px;
+line-height: 17px;
+letter-spacing: -0.035em;
+color: #464646;
+}
+.frist-frame-1{
+    position: absolute;
+width: 299.41px;
+height: 169.09px;
+left: 102.01px;
+top: 2878.29px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16.2294px;
+line-height: 137.5%;
+/* or 22px */
+letter-spacing: -0.035em;
+color: #3F3F3F;
+}
+.second-frame-1{
+    position: absolute;
+    width: 299.41px;
+    height: 169.09px;
+    left: 560.42px;
+    top: 2874.21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6766px;
+    line-height: 137.5%;
+    /* or 23px */
+    letter-spacing: -0.035em;
+    color: #464646;
+}
+.third-frame-1{
+    position: absolute;
+    width: 299.41px;
+    height: 169.09px;
+    left: 1000.47px;
+    top: 2880.73px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2294px;
+    line-height: 137.5%;
+    /* or 22px */
+     letter-spacing: -0.035em;
+    color: #3F3F3F;
+       
+}
+.first-img-1 {
+    position: absolute;
+width: 79.31px;
+height: 79.3px;
+left: 102.01px;
+top: 3029.34px;
+}
+.second-img-2 {
+    position: absolute;
+width: 79.31px;
+height: 79.3px;
+left: 558.25px;
+top: 3029.78px;
+}
+.third-img-3 {
+    position: absolute;
+width: 79.31px;
+height: 79.3px;
+left: 1000.47px;
+top: 3029.78px;
+}
+ /* .bg-1 {
+box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 908.87px;
+left: 0px;
+top: 2447px;
+background: black;
+backdrop-filter: blur(17.3886px);
+} */

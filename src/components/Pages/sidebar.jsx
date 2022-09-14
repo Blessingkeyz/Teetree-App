@@ -1,22 +1,16 @@
 import React from "react";
-import { useState } from "react";
-import Support from "./Support";
-import Upgrade from "./Upgrade";
-import HelpAndGetStarted from "./HelpAndGetStarted";
-import Onbording2Dashbord from "./Onbording2Dashbord";
 import logo from "../Assets/logo1.png";
-import ellipse from "../Assets/ellipse.svg";
 import { HiMenuAlt1 } from "react-icons/hi";
-import OverView from "./OverView";
-import MyAccount from "./MyAccount";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Dashboard = () => {
+
+
+const Sidebar = () => {
   const [show, setShow] = useState(false);
   const hideBar = () => {
     setShow(!show);
   };
-
   return (
     <>
       <div className="flex w-full place-items-center mx-auto font-pop relative ">
@@ -70,47 +64,10 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-
-          <div class="w-full flex flex-col font-pop  ">
-            <div className="flex xs:justify-center xs:items-center xs:text-center mx-5 mt-5 xs:mt-[2rem]   xs:pr-0 xs:mx-0 ">
-              <div>
-                <p className="text-[24px] xs:text-[20px]  font-medium text-tee-400 xs:font-bold xs:hidden">
-                  Welcome! Blessing Asukwo
-                </p>
-                <p className="text-[16px] xs:text-[20px] pr-[2rem] font-semi text-tee-400  hidden xs:flex -mt-[4rem]">
-                  Support
-                </p>
-                <p className="text-[16px] text-tee-500 xs:text-[12px] font-light xs:hidden">
-                  what would you like us to help you with?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className=" absolute right-[2rem] top-8 xs:right-5 xs:top-[2rem] xd:absolute xd:left-[16.8rem] w-[5rem] flex justify-center ">
-            <img
-              src={ellipse}
-              alt="image"
-              className="w-12  h-12 xs:w-10 rounded-full"
-            />
-          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default Dashboard;
-
-{
-  /* <Support/> */
-}
-{
-  /* <Upgrade /> */
-}
-{
-  /* <HelpAndGetStarted /> */
-}
-{
-  /* <Onbording2Dashbord/> */
-}
+export default Sidebar;

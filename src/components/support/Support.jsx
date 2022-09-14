@@ -5,32 +5,36 @@ import "@fontsource/poppins"
 import MiddleComp from './MiddleComp'
 import BottomComp from './BottomComp'
 import MiddleComp2 from './MiddleComp2'
+import Sidebar from '../Pages/sidebar'
 
 
 const Support = () => {
     return (
-        <Box
-            position={'relative'}
-            background={'#FEFEFE'}
-            height={{
-                base: '812px',
-                sm: '1024px'
-            }}
-            width={{
-                base: '375px',
-                sm: '1076px'
-            }}
-            left={{
-                base: '7573',
-                sm: '364px'
-            }}
-            top={'100px'}
-        >
-            <TopComp />
-            <MiddleComp />
-            <MiddleComp2 />
-            <BottomComp />
-        </Box>
+        <>
+            <Sidebar />
+            <Box
+                position={'absolute'}
+                background={'#FEFEFE'}
+                height={{
+                    base: '812px',
+                    sm: '1024px'
+                }}
+                width={{
+                    base: '375px',
+                    sm: '1076px'
+                }}
+                left={{
+                    base: '7573',
+                    sm: '364px'
+                }}
+                top={'0px'}
+            >
+                <TopComp />
+                <MiddleComp />
+                <MiddleComp2 />
+                <BottomComp />
+            </Box>
+        </>
     )
 }
 

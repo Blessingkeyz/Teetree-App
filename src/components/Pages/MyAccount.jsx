@@ -4,16 +4,7 @@ import logo from "../Assets/logo1.png";
 import ellipse from "../Assets/ellipse.svg";
 import { HiMenuAlt1 } from "react-icons/hi";
 import pen from '../Assets/pen.png'
-import two from "../Assets/two.png";
-import three from "../Assets/three.png";
-import line from "../Assets/line.png";
-import filter from "../Assets/filter.png";
-import add from "../Assets/add.png";
-import add1 from "../Assets/add1.png";
-import add2 from "../Assets/add2.png";
-import add3 from "../Assets/add3.png";
-import add4 from "../Assets/add4.png";
-import add5 from "../Assets/add5.png";
+
 import { Link } from "react-router-dom";
 
 const MyAccount = () => {

@@ -8,8 +8,8 @@ import Settings from './components/settings/Settings'
 import Statistics from './components/statistics/Statistics'
 import Support from './components/support/Support'
 // import Form from "./Components/Form/Form";
-import MyAccount from "./Components/Pages/MyAccount";
 import OverView from "./Components/Pages/overview";
+import MyAccount from './Components/Pages/MyAccount'
 const App = () => {
   return (
     <Routes>

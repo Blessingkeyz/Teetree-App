@@ -9,7 +9,7 @@ import Statistics from './components/statistics/Statistics'
 import Support from './components/support/Support'
 // import Form from "./Components/Form/Form";
 // import OverView from './Components/Pages/OverView'
-import MyAccount from './Components/Pages/MyAccount'
+// import MyAccount from './Components/Pages/MyAccount'
 const App = () => {
   return (
     <Routes>
@@ -21,7 +21,7 @@ const App = () => {
       <Route path="/support" element={<Support />} />
       <Route path="/*" element={<Errorpage2 />} />
       {/* <Route path="/dashboard" element={<OverView />} /> */}
-      <Route path="/myaccount" element={<MyAccount />} />
+      {/* <Route path="/myaccount" element={<MyAccount />} /> */}
     </Routes>
 
   )

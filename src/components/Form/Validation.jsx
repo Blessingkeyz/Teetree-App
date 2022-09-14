@@ -2,6 +2,8 @@ import React from "react";
 import backgd from "../Assets/formEvelope.jpg";
 import logo from "../Assets/logo.jpg";
 import envelop from "../Assets/formEvelope.jpg";
+import { NavLink } from "react-router-dom";
+import { Button } from "@chakra-ui/react";
 
 const Validation = () => {
   return (
@@ -19,14 +21,18 @@ const Validation = () => {
                 You have successfully signed up,
                 <br /> just one more step.
               </p>
-              <p className="text-base text-gray-900  px-3 pt-10 sm:absolute sm:-bottom-[5rem]  text-center sm:-mx-[3rem] xs:mb-[8rem] xs:font-light xs:absolute xs:bottom-[9rem] xs:-ml-[3rem] xs:top-[32rem] xm:top-[22rem] xm:pl-[2.5rem] xm:pr-[1rem] xm:absolute xd:absolute ">
-                A verification link has been sent to email
-                <br /> all you need to do is to click in the link <br />
-                sentto your mail box.
-                <br />
-                <br />
-                blessingasukwo15@gmail.com
-              </p>
+              <NavLink to={'/login'}  >
+                <p className="text-base text-gray-900  px-3 pt-10 sm:absolute sm:-bottom-[5rem]  text-center sm:-mx-[3rem] xs:mb-[8rem] xs:font-light xs:absolute xs:bottom-[9rem] xs:-ml-[3rem] xs:top-[32rem] xm:top-[22rem] xm:pl-[2.5rem] xm:pr-[1rem] xm:absolute xd:absolute ">
+                  A verification link has been sent to email
+                  <br /> all you need to do is to click in the link <br />
+                  sentto your mail box.
+                  <br />
+                  <br />
+                  {/* blessingasukwo15@gmail.com */}
+                  <Button
+                  >Login Now</Button>
+                </p>
+              </NavLink>
             </div>
             <div>
               <img

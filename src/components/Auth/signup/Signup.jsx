@@ -61,7 +61,7 @@ const Signup = () => {
         //navigate
 
         formValid
-            ? [alert('SUCCESFULLY REGISTERED'), navigate('/login')]
+            ? [alert('SUCCESFULLY REGISTERED'), navigate('/valid')]
             : alert('OLEASE CHECK YOUR DETAILS');
     };
 

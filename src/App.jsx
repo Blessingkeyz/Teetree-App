@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Login from './components/Auth/Login/Login'
 import Signup from './components/Auth/signup/Signup'
 import Errorpage2 from './components/error/Errorpage2'
+import ForgottenPassword from './components/Form/ForgottenPassword'
 import LandingPage from './components/Landingpage/Landingpage'
 import Settings from './components/settings/Settings'
 import Statistics from './components/statistics/Statistics'
@@ -20,6 +21,7 @@ const App = () => {
       <Route path="/settings" element={<Settings />} />
       <Route path="/support" element={<Support />} />
       <Route path="/*" element={<Errorpage2 />} />
+      <Route path="/forgot" element={<ForgottenPassword />} />
       {/* <Route path="/dashboard" element={<OverView />} /> */}
       {/* <Route path="/myaccount" element={<MyAccount />} /> */}
     </Routes>

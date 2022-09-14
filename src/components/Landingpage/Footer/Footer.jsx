@@ -82,7 +82,11 @@ const Footer = () => {
           <span className='eadd-1'>
             <Input placeholder='Email address' />
           </span>
-          <Button>Subscribe</Button>
+          <Button
+            top={'3487px'}
+            left={'617px'}
+            bgColor={'pink01'}
+          >Subscribe</Button>
         </HStack>
       </Flex>
     </>

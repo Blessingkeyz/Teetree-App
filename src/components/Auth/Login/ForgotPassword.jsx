@@ -7,7 +7,7 @@ const ForgotPassword = () => {
         <Box
             position={'absolute'}>
             <FormControl>
-                <NavLink to={'/signup'}  >
+                <NavLink to={'/forgot'}  >
                     <Text
                         position={'absolute'}
                         fontFamily={'poppins'}

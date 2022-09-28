@@ -24,7 +24,7 @@
     width: 364px;
     height: 162px;
     left: 120px;
-    top: 176px;
+    top: 148px;
     }    
 }
 @media screen and (min-width : 0em){
@@ -45,18 +45,14 @@
     .house-up-1 {
         color: #2c2b2b;
         font-size: 24px;
-        line-height: 28px;
+        line-height: 36px;
         font-weight: 500; position: absolute;
         width: 686px;
         height: 108px;
         left: 121px;
-        top: 338px;
-        
+        top: 310px;        
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 36px;
       }
 }
 @media screen and (min-width : 0em){

@@ -1,7 +1,7 @@
 import React from 'react'
 import Suffix from './Suffix.png'
 import './Abtus.css'
-import { Button } from '@chakra-ui/react'
+import { Button, Text } from '@chakra-ui/react'
 import { NavLink } from 'react-router-dom'
 // import '@fontsource/poppins'
 
@@ -12,10 +12,10 @@ const Aboutus = () => {
         <span className="you-1">All you need is<br></br> just one link!!!</span>
       </div>
       <div>
-        <span className="house-up-1">
+        <Text className="house-up-1">
           Teetree is all you need,very easy to set up, customize and generate a
           link that will house all other of your important links
-        </span>
+        </Text>
         <NavLink to={'/login'}  >
           <Button
             position='absolute'

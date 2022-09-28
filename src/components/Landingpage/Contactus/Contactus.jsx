@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Input, Textarea, VStack } from '@chakra-ui/react'
+import { Box, Button, Input, Textarea, VStack } from '@chakra-ui/react'
 import logo from '../Contactus/logo.png'
 import drawing from '../Contactus/design.png'
 import './Contactus.css'
@@ -7,9 +7,14 @@ import './Contactus.css'
 const Contactus = () => {
   return (
     <>
-      <div className="teetree-1">
+      <Box
+        display={{
+          base: 'none',
+          sm: 'yes'
+        }}
+        className="teetree-1">
         <img src={logo} alt="contLogo" />
-      </div>
+      </Box>
       <div>
         <span className="span-help-1">
           Do you have any questions or inquires send us an email. Expect our

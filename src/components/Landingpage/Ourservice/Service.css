@@ -1,4 +1,22 @@
-.our-services-1 {
+@media screen and (min-width : 0em){
+  .our-services-1{
+    position: absolute;
+    height: 22px;
+    left: 137px;
+    top: 719px;
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+    
+      line-height: 24px;
+      text-align: center;
+      color: #22023B;
+      width: 102px;
+    }
+}
+@media screen and (min-width : 30em){
+  .our-services-1 {
     line-height: 28px;
     font-size: 24px;
     text-align: center;
@@ -16,6 +34,52 @@
     line-height: 36px;
     text-align: center;
   }
+}
+@media screen and (min-width : 0em){
+  .bio-campaigns-1{
+    position: absolute;
+    height: 240px;
+    width: 335px;
+    top: 756px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #170127;
+    left: 20px;
+  }    
+  .img-2 {
+    position: absolute;
+    width: 86.05px;
+    height: 107.66px;
+    left: 20px;
+    top: 1032.69px;    
+    /* transform: rotate(-5.26deg); */
+    filter: drop-shadow(0px 10.2369px 10.2369px rgba(80, 34, 116, 0.15));
+  }
+  .img-3 {
+    width: 86.05px;
+    height: 107.66px;
+    left: 148.17px;
+    top: 1026px;
+    filter: drop-shadow(0px 10.2369px 10.2369px rgba(80, 34, 116, 0.2));
+    position: absolute;
+  }
+  .img-1 {
+    width: 86.05px;
+    height: 107.66px;
+    left: 237.25px;
+    top: 1032.69px;
+    
+    filter: drop-shadow(0px 10.2369px 10.2369px rgba(80, 34, 116, 0.15));
+    transform: rotate(20.05deg);
+    position: absolute;
+  }
+  
+}
+@media screen and (min-width : 30em){
   .bio-campaigns-1 {
     font-weight: 400;
     text-align: center;
@@ -34,17 +98,17 @@
     line-height: 36px;
     text-align: center;
  }
- .img-2 {
+  .img-2 {
     height: 364px;
-    width: 407px; position: absolute;
+     position: absolute;
     width: 244.4px;
     height: 305.77px;
     left: 300px;
     top: 960.42px;
     filter: drop-shadow(0px 29.0736px 29.0736px rgba(80, 34, 116, 0.15));
-    transform: rotate(-5.26deg);
+    /* transform: rotate(-5.26deg); */
   }
- .img-3 {
+  .img-3 {
     height: 364px;
     width: 303px; position: absolute;
     width: 244.4px;
@@ -63,3 +127,6 @@
     filter: drop-shadow(0px 29.0736px 29.0736px rgba(80, 34, 116, 0.15));
     transform: rotate(5.05deg);
   }
+}
+
+ 

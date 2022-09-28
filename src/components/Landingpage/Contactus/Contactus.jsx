@@ -1,5 +1,5 @@
 import React from 'react'
-import { Input, Textarea, VStack } from '@chakra-ui/react'
+import { Button, Input, Textarea, VStack } from '@chakra-ui/react'
 import logo from '../Contactus/logo.png'
 import drawing from '../Contactus/design.png'
 import './Contactus.css'
@@ -12,9 +12,9 @@ const Contactus = () => {
       </div>
       <div>
         <span className="span-help-1">
-          Do you have any questions or inquires<br></br> send us an email. Expect our
-          replies in a very short<br></br> while. The subject field requires you to be
-          specific<br></br> on what you want us to help you with. We want to<br></br> make sure we
+          Do you have any questions or inquires send us an email. Expect our
+          replies in a very short while. The subject field requires you to be
+          specific on what you want us to help you with. We want to make sure we
           offer the best services to our clients.
         </span>
       </div>
@@ -30,10 +30,8 @@ const Contactus = () => {
           <Input placeholder='Email address' />
           <Input placeholder='Subject' />
           <Textarea placeholder='Message' />
+          <Button>Send mail</Button>
         </VStack>
-      </div>
-      <div>
-        {/* <Button>Send mail</Button> */}
       </div>
     </>
   )

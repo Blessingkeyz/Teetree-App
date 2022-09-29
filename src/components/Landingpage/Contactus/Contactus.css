@@ -1,4 +1,13 @@
 @media screen and (min-width : 0em){
+  .teetree-1 {
+   position: absolute;
+    width: 81.54px;
+    height: 33px;
+    left: 147px;
+    top: 2060px;
+    
+    
+  }
     .contact-us-1{
       width: 89px;
       height: 24px;
@@ -113,19 +122,4 @@ left: 250.55px;
 top: 1870px;
 
 transform: rotate(-5.52deg);
-}
-
-
-.form-2 {
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-border: none;
-position: absolute;
-width: 480px;
-height: 536px;
-left: 700px;
-top: 1635px;
-/* border: 1px solid black; */
 }

@@ -1,17 +1,54 @@
-import React from 'react'
-import { Box, Button, Input, Textarea, VStack } from '@chakra-ui/react'
+import React, { useRef, useState } from 'react'
+import { Box, Image } from '@chakra-ui/react'
 import logo from '../Contactus/logo.png'
 import drawing from '../Contactus/design.png'
 import './Contactus.css'
+import InputFields from './InputFields'
+import SubmitSection from './SubmitSection'
 
 const Contactus = () => {
+  const [messageData, setMessageData] = useState({});
+  const inputRef = useRef({});
+
+  //initialValue
+  const handleChange = () => {
+    const values = {
+      fullname: inputRef.current['fullname'].value,
+      email: inputRef.current['email'].value,
+      subject: inputRef.current['subject'].value,
+      messagetext: inputRef.current['messagetext'].value
+    };
+    setMessageData(values);
+  };
+  console.log(messageData);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // field clearer function
+    const clearer = {
+      fullname: inputRef.current['fullname'].value = '',
+      email: inputRef.current['email'].value = '',
+      subject: inputRef.current['subject'].value = '',
+      messagetext: inputRef.current['messagetext'].value = ''
+    };
+
+    //session storage
+    const message = JSON.stringify(messageData);
+    console.log(message);
+    !messageData.fullname &&
+      !messageData.email &&
+      !messageData.subject ? alert('PLEASE FILL ALL FIELDS')
+      : [alert('MAIL SENT'), clearer
+      ];
+  };
+
+
+
   return (
-    <>
+    <Box
+      as={'form'}
+      onSubmit={handleSubmit}
+    >
       <Box
-        display={{
-          base: 'none',
-          sm: 'yes'
-        }}
         className="teetree-1">
         <img src={logo} alt="contLogo" />
       </Box>
@@ -24,21 +61,23 @@ const Contactus = () => {
         </span>
       </div>
       <div className="draw-1">
-        <img src={drawing} alt="draw" />
+        <Image
+          display={{
+            base: 'none',
+            sm: 'yes'
+          }}
+          src={drawing} alt="draw" />
       </div>
       <div>
         <span className="contact-us-1">Contact us </span>
       </div>
-      <div className="form-2">
-        <VStack className='form-1' gap={8} >
-          <Input placeholder='Full name' />
-          <Input placeholder='Email address' />
-          <Input placeholder='Subject' />
-          <Textarea placeholder='Message' />
-          <Button>Send mail</Button>
-        </VStack>
-      </div>
-    </>
+      <InputFields
+        inputRef={inputRef}
+      />
+      <SubmitSection
+        handleChange={handleChange}
+      />
+    </Box >
   )
 }
 

@@ -33,7 +33,7 @@ const Aboutus = () => {
               sm: '444px'
             }}
             fontWeight={'500'}
-            display='flex' bordeRadius='10px'
+            display='flex' borderRadius='10px'
             padding={{
               base: '16px 120px',
               sm: '20px 20px'
@@ -51,7 +51,7 @@ const Aboutus = () => {
               sm: '133px'
             }} color='#F8F8F8'
             height='56px' backgroundColor='#440376'
-            bordeRadius='10px'
+            borderRadius='10px'
             left={{
               base: '48px',
               sm: '265px'

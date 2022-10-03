@@ -1,47 +1,81 @@
-.footdown-1 {
-    position: absolute;
-width: 383px;
-height: 155px;
-left: 89px;
-top: 60px;
+@media screen and (min-width : 0em){
+    .footer{
+        position: absolute;
+        width: 1400px;
+        height: 478px;
+        left: 0px;
+        top: 3230px;
+        background-color: #150D1B
+    }
 }
-.company-1 {
-    width: 121px;
-height: 36px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+@media screen and (min-width : 30em){
+    .footer{
+        position: absolute;
+        width: 1400px;
+        height: 478px;
+        left: 0px;
+        top: 3230px;
+        background-color: #150D1B
+    }
+    .footdown-1 {
+        position: absolute;
+    width: 383px;
+    height: 155px;
+    left: 89px;
+    top: 37px;
+    }
+    .topframe-1{
+        border: red solid 2px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        position: absolute;
+        width: 754px;
+        height: 191px;
+        left: 581px;
+        top: 89px;  
+    }
+    .footframe-1 {
+        border: green 1px solid;
+     position: relative;
+    width: 127px;
+    height: 138px;
+    flex-direction: column;
+    top: 0px;
 }
-.compframe-1 {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 89px;
-height: 76px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+    .company-1 {
+        width: 121px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .compframe-1 {
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    top: 20px;
+    width: 89px;
+    height: 76px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
 }
+
+
+
+
 
 .About-1 {
     width: 89px;
@@ -86,13 +120,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
-.footframe-1 {
-    position: relative;
-width: 127px;
-height: 138px;
-flex-direction: column;
-top: 60px;
-}
+
 .footframe-2 {
     display: flex;
 flex-direction: column;
@@ -259,21 +287,7 @@ flex-grow: 0;
     left: 0px;
     top: 30px;
 }
-.topframe-1{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    
-    position: absolute;
-    width: 754px;
-    height: 191px;
-    left: 591px;
-    top: 49px;
-    
-    
-}
+
 
 
 .newsframe-1{
